@@ -1,0 +1,73 @@
+:root{
+    --text-color: gold;
+    --cardbgcolor: #6b7b8c;
+    --bgcolor: #3b4d61;
+}
+
+body {
+    background-color: var(--bgcolor);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+button{cursor: pointer;}
+#goodbye{
+    margin-top: 6px;
+}
+#card {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: var(--cardbgcolor);
+    color: var(--text-color);
+    padding: 20px;
+    margin: 0 auto;
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+#text{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#buttons{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+#random, a{
+    border: none;
+    border-radius: 8px;
+    padding: 10px 6px;
+    font-size: 14px;
+    /* width: 130px; */
+}
+a, #random{
+    background-color: gold;
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+a{
+    background-color: var(--bgcolor);  
+    color: gold; 
+}
+a:hover, #random:hover{
+    background-color: var(--bgcolor);
+    color: gold;
+    box-shadow: 0px 0px 5px white;
+}
+a:hover{
+    background-color: gold;
+    color: black;
+    box-shadow: 0px 0px 5px black;
+}
+label{
+    display: block;
+    margin-bottom: 4px;
+}
+#start{
+    padding: 5px;
+}
+
+#loadOverlay{display: none;}

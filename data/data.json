@@ -1,0 +1,38 @@
+[
+    {
+        "question": "What is a capacitor?",
+        "answer": "Capacitors are devices for storing electrical energy. They are for example used in Random Access Memory (RAM), where a transistor and a capacitor are paired to create what is called a memory cell. Each memory cell represents a single bit of data (a 0 or a 1), and the capacitor's function is to hold this bit of information."
+    },
+    {
+        "question": "What is a transistor?",
+        "answer": "A transistor is an electronic component that has two possible functions: amplify and electric current, or work as a switch. The notion of switch means it can either block an electric current or let it flow. These two distinct states correspond to the ones and zeros used in computers. Memory chips, for example, can contain up to several billions of transistors, and each of them can be individually switched on and off. This signifies that with a billion of transistors, the chip can store a billion 0s and 1s. This property makes transistors the basis of modern computer electronics."
+    },
+    {
+        "question": "What is UTF-8?",
+        "answer": "The Unicode Transformation Format - 8 bits, or UTF-8, is a character encoding system. It translates any Unicode character to a matching binary string which can be read by a computer, and vice versa. For example the character A is written as U+0041 in Unicode, while its corresponding binary string is 01000001. The most common latin characters, as well as digits, are encoded using a sequence of 8 bits, which is the same as one byte. This signifies that they are represented by a sequence of eight 1s and 0s, like the aforementioned example of the A character. Less common characters can however take up to 4 bytes, which is the case with the characters 𠜎 and 😁 for example."
+    },
+    {
+        "question": "What are bits and bytes?",
+        "answer": "Bit means binary digit. In the world of computing, it is the smallest unit of information and can only hold one of two values: a 0 or a 1. As for bytes, they are sequences of 8 binary digits. The byte is the smallest unit of storage in computing technology, since it can be used to represent a single character, like the letter A for example."
+    },
+    {
+        "question": "What is the difference between a compiler and an interpreter?",
+        "answer": "Both are used to translate source code into machine code (binary code). However, while interpreters translate the source code line by line, compilers take the entire set of instructions, and translate the whole of it in one go. As a result, the interpreter runs slower since it processes the code one statement at a time, but when something goes wrong, it makes it easier to locate the cause of the problem. The compiler, on the other hand, allows for a much faster runtime, but error messages will be generated only after the whole program has been scanned, which makes debugging harder. C, C++ and Haskell are examples of compiled languages, while Python and JavaScript for example are interpreted."
+    },
+    {
+        "question": "What are assembly languages?",
+        "answer": "Assembly is a family of very low-level programming languages, which means it is very close to actual machine code. It also signifies that it deals with a computer's harware components, which is not the case with more abstract languages like Python. An assembly language is translated into machine instructions by a program referred to as an assembler."
+    },
+    {
+        "question": "What the heck are pointers?",
+        "answer": "A pointer is a variable that holds the address of another variable in computer memory. A way to think about it, is that it points to a specific location in memory. Every byte of computer memory is numbered, and when a variable is stored, one of these numbers (or adresses) is assigned to it. This what allows the computer to later retrieve that same variable."
+    },
+    {
+        "question": "What is garbage collection?",
+        "answer": "Garbage collection is the process of freeing up memory space when an object is no longer in use. It can be seen as an automatic memory manager. This makes the developer's job easier, but comes with a cost in performance. Many languages—like Java, Python and Javascript—use garbage collection."
+    },
+    {
+        "question": "What is flash memory?",
+        "answer": "Flash memory is a non-volatile memory storage medium, which means it can retain information even after the power supply has been turned off. Each flash memory chip holds an array of flash memory cells. Similarly to RAM chips, each of these cells has a transistor that acts as a gate, either allowing or blocking the flow of electrons, and thus storing a 1 or a 0 in binary code. But as opposed to RAM, each flash memory cell also has a second gate, called a floating gate. As electrons traverse a transistor in the \"on\" state, some get trapped by the floating gate, and remain there to store a 1 indefinitely. The transistor can however be returned to 0 by applying a specific negative charge."
+    }
+]

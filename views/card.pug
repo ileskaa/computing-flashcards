@@ -1,0 +1,12 @@
+extends layout
+block content
+
+    div(id="card")
+        if question
+            h2(id="text") #{text}
+        else
+            p(id="text") #{text}
+        div(id="buttons")
+            a(href=`/cards/${id}?side=${sideToShow}`) Flip card
+            form(action=`/card/${id}` method="post")
+                button(id="random") Pick a random card

@@ -1,0 +1,6 @@
+extends layout.pug
+block content
+    form(action="/newuser" method="post")
+        label(for="username") Enter a name (min. 2 characters):
+        input(name="username" type="text" placeholder="e.g. Jean-Kevin" required minlength="2")
+        button(type="submit" id="submit-user") Submit
